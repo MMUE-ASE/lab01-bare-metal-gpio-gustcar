@@ -97,7 +97,7 @@ void gpio_write(uint32_t port_base, uint8_t pin, int value)
 {
     if (value) {
         /* TODO: set — write to BSRR to drive the pin high */
-        GPIOx_BSRR(port_base) |= write (1U << pin);
+        GPIOx_BSRR(port_base) |= (1U << pin);
     } else {
         /* TODO: reset — write to BSRR to drive the pin low */
         GPIOx_BSRR(port_base) |= (1U << (pin + 16));
