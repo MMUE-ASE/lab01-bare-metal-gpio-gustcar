@@ -25,7 +25,7 @@
 /* TODO P1.2 — base address of the GPIO port for B1
  *             Use the constants from gpio.h: GPIOA_BASE, GPIOB_BASE...
  *             Source: UM1974, section "Push-button"                  */
-#define B1_PORT GPIOA_BASE
+#define B1_PORT GPIOC_BASE
 /* -----------------------------------------------------------------------
  * User LED LD2 (blue)
  * ----------------------------------------------------------------------- */
